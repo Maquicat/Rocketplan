@@ -170,4 +170,16 @@ justify-content: center;
 flex-shrink: 0;
     }
 
+    
+#col1 {
+    column-count:2;
+    column-gap:20px;
+    column-rule:  4px;
+}
+
+#col2 {
+    column-count:2;
+    column-gap:20px;
+    column-rule:  4px;
+}
 
