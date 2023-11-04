@@ -41,10 +41,9 @@ body#body {
 /* Los porcetajes son una medida relativa al tamaño del contenedor padre */
 
 
-#content {
-    margin-left: 250px;
-    padding: 2em;
-    }
+/* #content {
+
+    } */
 
 
     /* Esto sirve para controlar el hero */
@@ -66,6 +65,8 @@ body#body {
     position: relative;
     z-index: 1;
     height: 34em;
+    margin-left: 250px;
+    padding: 2em;
     }
 
 /* Esto sirve para controlar el nav*/
@@ -142,6 +143,8 @@ nav li a:hover {
     font-weight: 900;
     line-height: normal;
     text-transform: uppercase;
+    margin-left: 250px;
+    padding: 2em;
     }
 
 .column {
@@ -162,15 +165,14 @@ nav li a:hover {
     }
 
 .column p {
-
-display: flex;
-width: 100%;
-flex-direction: column;
-justify-content: center;
-flex-shrink: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
     }
 
-    
+
 #col1 {
     column-count:2;
     column-gap:20px;
@@ -183,3 +185,37 @@ flex-shrink: 0;
     column-rule:  4px;
 }
 
+.cajablanca{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 100%;
+    color: #29235C;
+    padding: 0%;
+    margin-left: 0;
+    height: 982px;
+    flex-shrink: 0;
+}
+
+.textogrande{
+    color: #29235C;
+    flex-shrink: 0;
+    font-family: Roboto;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 89.188%; 
+    padding: 20%;
+    padding-bottom: 0%;
+    overflow:visible;
+}
+
+.textobase{
+    color: #29235C;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 20%;
+    padding-right: 20%;
+    }
