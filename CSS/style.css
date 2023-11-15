@@ -314,3 +314,33 @@ nav li a:hover {
     position: absolute;
     bottom: 0; /* Para que el SVG esté pegado al borde inferior del div cajablanca */
     }
+
+
+    .footer {
+        width: 1512px;
+        height: 982px;
+        flex-shrink: 0;
+        background-color:  #29235C;;
+        padding: 20px 0;
+      }
+  
+      .footer-column {
+        display: flex;
+        flex-direction: column;
+      }
+  
+      .footer-column img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      footer a
+      {
+        text-decoration: none;
+        color: #F5F5F5 ;
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: 400;
+        text-align: left;
+
+      }
