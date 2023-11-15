@@ -17,6 +17,22 @@ h1#title {
     flex-shrink: 0;
     }
 
+    h1#title2 {
+        color: #F5F5F5;
+    
+        font-family: Roboto;
+        font-size: 120px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 89.188%; /* 107.025px */
+
+        padding-bottom: 5%;
+    
+        width: 900px;
+    
+        flex-shrink: 0;
+        }
+
 h2#subtitle {
     color: #86C8AD;
     font-family: Roboto;
@@ -92,6 +108,7 @@ nav#nav {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding: 2%;
     }
 
 nav ul {
@@ -137,6 +154,41 @@ nav li a:hover {
 
 .boton:active{
     background: #49AB83;
+    }
+
+
+    .boton2 {
+        width: 252.717px;
+        height: 70.444px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: #86C8AD;
+        color: #fff;
+        }
+    
+    .boton2:hover{
+        border-radius: 4px;
+        background: #94B6A8;
+        color: #fff;
+        }
+    
+    .boton2:active{
+        background: #49AB83;
+        }
+    
+    .botondere{
+        background: #86C8AD;
+        border: #86C8AD;
+        color: #fff;
+        border-radius: 4px;
+        padding: 1% 5% 1% 5%;
+        margin: 1%;
+        margin-left: 80%;
+
+        text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+
     }
 
  /* Esto sirve para controlar las columnas de llamadas a la acción*/
@@ -238,6 +290,22 @@ nav li a:hover {
     overflow:visible;
     }
 
+    .textogrande2{
+      
+        color: #29235C;
+    flex-shrink: 0;
+    font-family: Roboto;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 89.188%; 
+    padding: 3em 20%;
+    padding-bottom: 0%;
+    overflow:visible;
+    margin-right: 10%;
+
+        }
+
 .textogrande.textoblanco{
     color: #F5F5F5;
 
@@ -259,6 +327,21 @@ nav li a:hover {
     max-width: 1000px;
 }
 
+.container2
+{
+    display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+}
+
+
+.imgmetodo {
+
+    text-align: center;
+    margin-right: 20%;
+    margin-top: 15%;
+    
+}
 
  /* Esto sirve para controlar las tarjetas*/
 .container-box {
@@ -308,6 +391,40 @@ nav li a:hover {
     line-height: normal;
     text-transform: none;
     }
+
+    .textopasti {
+        color: #29235C;
+
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.6px;
+background-color: #C7DCD1;
+padding: 5%;
+border-radius: 38px;
+        }
+
+.tic {
+
+    display: flex;
+
+}
+
+
+        .textotic {
+
+            color: #29235C;
+
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: none;
+
+        }
 
 .curves {
     width: 100%;
