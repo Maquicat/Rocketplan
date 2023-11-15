@@ -1,6 +1,6 @@
-/* *{
-    background: #29235C;
-} */
+html{
+    width: 100%;
+}
 
 
 h1#title {
@@ -64,9 +64,12 @@ h3 {
 }    
 body#body {
     background-color: #29235C;
+    width: 100%;
     /* margin: 3em; */
     }   
-
+div{
+    width: 100%;
+}
 /* Los porcetajes son una medida relativa al tamaño del contenedor padre */
 
 
@@ -272,6 +275,7 @@ nav li a:hover {
     height: 100%;
     color: #F5F5F5;
     padding: 0%;
+    padding-bottom: 20em;
     margin-left: 0;
     height: 982px;
     flex-shrink: 0;
@@ -461,3 +465,104 @@ text-transform: none;
         text-align: left;
 
       }
+
+      /*Esto sirve para hacer el código responsive*/
+      @media (max-width: 768px) {
+        .title {
+            margin-left: 0; /* Adjust margin for smaller screens */
+        }
+    
+        nav#nav {
+            font-size: 24px; /* Decrease font size for navigation on smaller screens */
+        }
+    
+        .boton,
+        .boton2,
+        .botondere {
+            margin-left: 0; /* Adjust margin for buttons on smaller screens */
+        }
+    
+        .container {
+            margin-left: 0; /* Adjust margin for container on smaller screens */
+        }
+    
+        .column {
+            flex: 1;
+            min-width: 100%; /* Full width for columns on smaller screens */
+        }
+    
+        .textogrande,
+        .textogrande2,
+        .textobase {
+            padding: 3em 5%; /* Adjust padding for text on smaller screens */
+        }
+    }
+    
+    /* Styles for smartphones (576px and below) */
+    @media (max-width: 576px) {
+        .title {
+            padding: 2em; /* Adjust padding for title on smaller screens */
+        }
+    
+        .textogrande,
+        .textogrande2 {
+            font-size: 40px; /* Decrease font size for large text on smaller screens */
+        }
+    
+        .column {
+            height: auto; /* Allow columns to expand based on content */
+        }
+    
+        .textobase {
+            margin-left: 5%; /* Adjust margin for text on smaller screens */
+            margin-right: 5%;
+        }
+        .boton,
+        .boton2,
+        .botondere {
+            margin-left: 5%; /* Adjust margin for buttons on smaller screens */
+        }
+    
+        nav#nav {
+            text-align: center; /* Center align navigation on smaller screens */
+        }
+    }
+
+    #consultaForm{
+        padding-top: 1em;
+        align-content: left;
+        text-align: left;
+    }
+
+    #btn_btn_primary{
+        width: 252.717px;
+        height: 70.444px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: #86C8AD;
+        color: #F5F5F5;
+    
+        text-align: center;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        }
+    
+    .boton:hover{
+        border-radius: 4px;
+        background: #94B6A8;
+        }
+    
+    .boton:active{
+        background: #49AB83;
+        }
+
+        
+        .carousel-inner img {
+            width: 100%;
+            height: auto;
+        }
+    
+    
