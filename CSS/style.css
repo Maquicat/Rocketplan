@@ -435,6 +435,7 @@ text-transform: none;
     width: 100%;
     position: absolute;
     bottom: 0; /* Para que el SVG esté pegado al borde inferior del div cajablanca */
+
     }
 
     .footer {
@@ -547,7 +548,7 @@ text-transform: none;
     /* Styles for smartphones (576px and below) */
     @media (max-width: 576px) {
         html{
-    100%
+
         }
         .title {
             padding: 1em; /* Adjust padding for title on smaller screens */
@@ -576,3 +577,59 @@ text-transform: none;
             text-align: center; /* Center align navigation on smaller screens */
         }
     }
+
+
+    .galeria{
+
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        
+        }
+        .galeria img{
+        
+            width: 100%;
+        
+        
+        }
+        
+        .rowgal{
+        
+            display: flex;
+            padding: 5px;
+            flex-wrap: wrap;
+        }
+        
+        .columnaa{
+        
+            flex: 25%;
+            padding: 5px;
+        }
+        
+        .columnaa img{
+        
+            margin-top: 5px;
+        
+        }
+        
+        @media (max-width: 600px){
+            .columnaa{
+        
+                flex: 100%;
+            }
+        }
+        
+        @media (max-width: 800px){
+            .columnaa{
+        
+                flex: 50%;
+            }
+        }
+
+        .accordion{
+
+            padding: 10%;
+
+        }
+
+
