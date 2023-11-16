@@ -1,6 +1,6 @@
-/* *{
-    background: #29235C;
-} */
+html{
+    width: 100%;
+}
 
 
 h1#title {
@@ -16,6 +16,22 @@ h1#title {
 
     flex-shrink: 0;
     }
+
+    h1#title2 {
+        color: #F5F5F5;
+    
+        font-family: Roboto;
+        font-size: 120px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 89.188%; /* 107.025px */
+
+        padding-bottom: 5%;
+    
+        width: 900px;
+    
+        flex-shrink: 0;
+        }
 
 h2#subtitle {
     color: #86C8AD;
@@ -33,18 +49,33 @@ h2#subtitle {
     flex-shrink: 0;
     }
 
+h3 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    }
+
+.azul {
+    color: #29235C;
+}    
 body#body {
     background-color: #29235C;
+    width: 100%;
     /* margin: 3em; */
     }   
-
+div{
+    width: 100%;
+}
 /* Los porcetajes son una medida relativa al tamaño del contenedor padre */
 
 
-#content {
-    margin-left: 250px;
-    padding: 2em;
-    }
+/* #content {
+
+    } */
 
 
     /* Esto sirve para controlar el hero */
@@ -66,6 +97,8 @@ body#body {
     position: relative;
     z-index: 1;
     height: 34em;
+    margin-left: 250px;
+    padding: 2em;
     }
 
 /* Esto sirve para controlar el nav*/
@@ -78,6 +111,7 @@ nav#nav {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding: 2%;
     }
 
 nav ul {
@@ -125,6 +159,41 @@ nav li a:hover {
     background: #49AB83;
     }
 
+
+    .boton2 {
+        width: 252.717px;
+        height: 70.444px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: #86C8AD;
+        color: #fff;
+        }
+    
+    .boton2:hover{
+        border-radius: 4px;
+        background: #94B6A8;
+        color: #fff;
+        }
+    
+    .boton2:active{
+        background: #49AB83;
+        }
+    
+    .botondere{
+        background: #86C8AD;
+        border: #86C8AD;
+        color: #fff;
+        border-radius: 4px;
+        padding: 1% 5% 1% 5%;
+        margin: 1%;
+        margin-left: 80%;
+
+        text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+
+    }
+
  /* Esto sirve para controlar las columnas de llamadas a la acción*/
 .container {
     display: flex;
@@ -142,6 +211,8 @@ nav li a:hover {
     font-weight: 900;
     line-height: normal;
     text-transform: uppercase;
+    margin-left: 250px;
+    padding: 2em;
     }
 
 .column {
@@ -162,12 +233,403 @@ nav li a:hover {
     }
 
 .column p {
-
-display: flex;
-width: 100%;
-flex-direction: column;
-justify-content: center;
-flex-shrink: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
     }
+
+
+#col1 {
+    column-count:2;
+    column-gap:20px;
+    column-rule:  4px;
+    }
+
+#col2 {
+    column-count:2;
+    column-gap:20px;
+    column-rule:  4px;
+    }
+
+
+ /* Esto sirve para los estilos de los textos y las diapos*/
+
+.cajablanca{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 100%;
+    color: #29235C;
+    padding: 0%;
+    padding-bottom: 20em;
+    margin-left: 0;
+    min-height: 982px;
+    flex-shrink: 0;
+    position: relative;
+    }
+
+.cajaazul{
+    background-color: #29235C;
+    width: 100%;
+    height: 100%;
+    color: #F5F5F5;
+    padding: 0%;
+    padding-bottom: 20em;
+    margin-left: 0;
+    height: 25%;
+    flex-shrink: 0;
+    }
+
+.textogrande{
+    color: #29235C;
+    flex-shrink: 0;
+    font-family: Roboto;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 89.188%; 
+    padding: 3em 20%;
+    padding-bottom: 0%;
+    overflow:visible;
+    }
+
+    .textogrande2{
+      
+        color: #29235C;
+    flex-shrink: 0;
+    font-family: Roboto;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 89.188%; 
+    padding: 3em 20%;
+    padding-bottom: 0%;
+    overflow:visible;
+    margin-right: 10%;
+
+        }
+
+.textogrande.textoblanco{
+    color: #F5F5F5;
+
+    }
+
+.textobase{
+    color: #29235C;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-wrap: wrap;
+    }
+
+.max-w-1000 {
+    max-width: 1000px;
+}
+
+.container2
+{
+    display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+}
+
+
+.imgmetodo {
+
+    text-align: right;
+    margin-right: 1em
+    
+}
+
+ /* Esto sirve para controlar las tarjetas*/
+.container-box {
+    position: relative;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    border-radius: 4px;
+    border: 1px solid rgba(134, 200, 173, 0.50);
+    }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    }
+
+.container-box:hover {
+    height: 250px;
+    border: 1px solid #797979;
+    }
+
+.container-box:hover .overlay {
+    opacity: 0;
+    }
+
+.row{
+    align-items: center;
+    height: 250px;
+    }
+
+.textotarjeta {
+    color: #29235C;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: none;
+    }
+
+    .textopasti {
+        color: #29235C;
+        overflow:visible;
+        text-wrap: wrap;
+
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.6px;
+background-color: #C7DCD1;
+padding: 5%;
+border-radius: 38px;
+        }
+
+.tic {
+
+    display: flex;
+
+}
+
+
+        .textotic {
+
+            color: #29235C;
+
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: none;
+
+        }
+
+.curves {
+    width: 100%;
+    position: absolute;
+    bottom: 0; /* Para que el SVG esté pegado al borde inferior del div cajablanca */
+
+    }
+
+    .footer {
+        width: 100%;
+        margin-left: 0;
+        padding: 20px 5%;
+        text-align: left;
+    }
+    
+    .footer-column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Alinea los elementos de la columna al margen izquierdo */
+    }
+    
+    .footer-column img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .list-unstyled {
+        list-style: none; /* Elimina los estilos de la lista (viñetas, márgenes, etc.) */
+        padding: 0;
+        margin: 0;
+    }
+    
+    .list-unstyled li {
+        margin-bottom: 10px; /* Espaciado entre elementos de la lista */
+    }
+    
+    .list-unstyled a {
+        text-decoration: none;
+        color: #F5F5F5;
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: 400;
+        text-align: left;
+    }
+      
+
+    #consultaForm{
+        padding-top: 1em;
+        align-content: left;
+        text-align: left;
+    }
+
+    #btn_btn_primary{
+        width: 252.717px;
+        height: 70.444px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: #86C8AD;
+        color: #F5F5F5;
+    
+        text-align: center;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        }
+    
+    .boton:hover{
+        border-radius: 4px;
+        background: #94B6A8;
+        }
+    
+    .boton:active{
+        background: #49AB83;
+        }
+
+        
+        .carousel {
+            width: 60%; /* Ajusta el tamaño del carousel según tus necesidades */
+            margin: auto; /* Centra horizontalmente el carousel */
+          }
+          
+        /*Esto sirve para hacer el código responsive*/
+      @media (max-width: 768px) {
+        .title {
+            margin-left: 0; /* Adjust margin for smaller screens */
+        }
+    
+        nav#nav {
+            font-size: 24px; /* Decrease font size for navigation on smaller screens */
+        }
+    
+        .boton,
+        .boton2,
+        .botondere {
+            margin-left: 0; /* Adjust margin for buttons on smaller screens */
+        }
+    
+        .container {
+            margin-left: 0; /* Adjust margin for container on smaller screens */
+        }
+    
+        .column {
+            flex: 1;
+            min-width: 100%; /* Full width for columns on smaller screens */
+        }
+    
+        .textogrande,
+        .textogrande2,
+        .textobase {
+            padding: 3em 5%; /* Adjust padding for text on smaller screens */
+        }
+    }
+    
+    /* Styles for smartphones (576px and below) */
+    @media (max-width: 576px) {
+        html{
+
+        }
+        .title {
+            padding: 1em; /* Adjust padding for title on smaller screens */
+        }
+    
+        .textogrande,
+        .textogrande2 {
+            font-size: 40px; /* Decrease font size for large text on smaller screens */
+        }
+    
+        .column {
+            height: auto; /* Allow columns to expand based on content */
+        }
+    
+        .textobase {
+            margin-left: 5%; /* Adjust margin for text on smaller screens */
+            margin-right: 5%;
+        }
+        .boton,
+        .boton2,
+        .botondere {
+            margin-left: 5%; /* Adjust margin for buttons on smaller screens */
+        }
+    
+        nav#nav {
+            text-align: center; /* Center align navigation on smaller screens */
+        }
+    }
+
+
+    .galeria{
+
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        
+        }
+        .galeria img{
+        
+            width: 100%;
+        
+        
+        }
+        
+        .rowgal{
+        
+            display: flex;
+            padding: 5px;
+            flex-wrap: wrap;
+        }
+        
+        .columnaa{
+        
+            flex: 25%;
+            padding: 5px;
+        }
+        
+        .columnaa img{
+        
+            margin-top: 5px;
+        
+        }
+        
+        @media (max-width: 600px){
+            .columnaa{
+        
+                flex: 100%;
+            }
+        }
+        
+        @media (max-width: 800px){
+            .columnaa{
+        
+                flex: 50%;
+            }
+        }
+
+        .accordion{
+
+            padding: 10%;
+
+        }
 
 
