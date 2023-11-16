@@ -5,9 +5,10 @@ html{
 
 h1#title {
     color: #F5F5F5;
+ font-size: 8em;
 
     font-family: Roboto;
-    font-size: 120px;
+
     font-style: normal;
     font-weight: 900;
     line-height: 89.188%; /* 107.025px */
@@ -19,19 +20,18 @@ h1#title {
 
     h1#title2 {
         color: #F5F5F5;
-    
-        font-family: Roboto;
-        font-size: 120px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 89.188%; /* 107.025px */
-
-        padding-bottom: 5%;
-    
-        width: 900px;
-    
-        flex-shrink: 0;
-        }
+        font-size: 8em;
+       
+           font-family: Roboto;
+       
+           font-style: normal;
+           font-weight: 900;
+           line-height: 89.188%; /* 107.025px */
+       
+           width: 900px;
+       
+           flex-shrink: 0;
+           }
 
 h2#subtitle {
     color: #86C8AD;
@@ -97,7 +97,9 @@ div{
     position: relative;
     z-index: 1;
     height: 34em;
-    margin-left: 250px;
+
+    margin-left: 5em;
+
     padding: 2em;
     }
 
@@ -371,7 +373,10 @@ nav li a:hover {
     }
 
 .container-box:hover {
+ 
+
     height: 350px;
+
     border: 1px solid #797979;
     }
 
