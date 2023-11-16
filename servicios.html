@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NUESTRO METODO</title>
+    <title>NUESTRO MÉTODO</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS (Make sure it's included after the Bootstrap CSS) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
 </head>
 <body id="body">
 
         <!-- Esto es el nav -->
         <nav id="nav">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#" class="boton2">¡Pruébalo!</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="servicios.html">Servicios</a></li>
+              <li><a href="Contactos.html">Contacto</a></li>
+              <li><a href="cuenta.html">¡Pruébalo!</a></li>
             </ul>
         </nav>
     
@@ -27,7 +31,7 @@
             <div class="title">
                 <h2 id="subtitle">SOFTWARE DE GESTIÓN PARA PROFESIONALES Y CLIENTES</h2>
                 <h1 id="title2">Nuestro Método</h1>
-                <button type="button" class="boton">¡Empecemos!</button>
+                <button type="button" class="boton" onclick="location.href='Contactos.html'">¡Prúebalo!</button>
             </div>
     
                 <!-- Esto es el el espacio-->
@@ -57,7 +61,7 @@
         
         </div>
         <div class="column">
-            <p>HAZLO FÁCIL</p>
+            <p>EFICIENCIA</p>
             <icon><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
                 <path d="M14.9 19.95L17.5 22.55C17.8667 22.9167 18.3333 23.1 18.9 23.1C19.4667 23.1 19.9333 22.9167 20.3 22.55L26 16.85V18.05C26 18.6167 26.192 19.0833 26.576 19.45C26.96 19.8167 27.4347 20 28 20C28.5667 20 29.042 19.8087 29.426 19.426C29.81 19.0433 30.0013 18.568 30 18V12C30 11.4333 29.808 10.958 29.424 10.574C29.04 10.19 28.5653 9.99867 28 10H21.95C21.3833 10 20.9167 10.192 20.55 10.576C20.1833 10.96 20 11.4347 20 12C20 12.5667 20.192 13.042 20.576 13.426C20.96 13.81 21.4347 14.0013 22 14H23.15L18.9 18.3L16.3 15.7C15.9333 15.3 15.4667 15.1 14.9 15.1C14.3333 15.1 13.8667 15.3 13.5 15.7L7.4 21.8C7 22.1667 6.8 22.6333 6.8 23.2C6.8 23.7667 7 24.2333 7.4 24.6C7.76667 25 8.23334 25.2 8.8 25.2C9.36667 25.2 9.83334 25 10.2 24.6L14.9 19.95ZM4 36C2.9 36 1.958 35.608 1.174 34.824C0.390003 34.04 -0.00132994 33.0987 3.39559e-06 32V4C3.39559e-06 2.9 0.392003 1.958 1.176 1.174C1.96 0.390003 2.90134 -0.00132994 4 3.39559e-06H32C33.1 3.39559e-06 34.042 0.392003 34.826 1.176C35.61 1.96 36.0013 2.90134 36 4V32C36 33.1 35.608 34.042 34.824 34.826C34.04 35.61 33.0987 36.0013 32 36H4Z" fill="#86C8AD"/>
               </svg>
@@ -93,7 +97,7 @@
             </p>
         </div> 
         <div class="imgmetodo">
-        <img src="img/Rectangle 7.jpg" alt="foto1">
+        <img src="img/Rectangle 7.jpg" alt="foto1" class="foto1">
         </div>
     </div>
                     <!-- Esto son las curves-->
@@ -107,7 +111,7 @@
         <!-- Esto es la diapo 3-->
         <div class="cajaazul">
 
-            <button class="botondere">¡Pruébalo!</button>
+          <button type="button" class="boton" onclick="location.href='Contactos.html'">¡Pruébalo!</button>
 
             <pre class="textogrande textoblanco">Encuentra </br>tu plan
             </pre>
@@ -131,11 +135,12 @@
                             
                             <div class="tic">
 
-                                <icon><svg xmlns="http://www.w3.org/2000/svg" width="19" height="15" viewBox="0 0 19 15" fill="none">
+                                <icon><svg xmlns="http://www.w3.org/2000/svg" width="19" height="100" viewBox="0 0 19 15" fill="none">
                                     <path d="M16.0466 0.47823C16.3749 0.168099 16.8118 -0.0033534 17.2652 4.97078e-05C17.7185 0.00345282 18.1527 0.181446 18.4763 0.496471C18.7998 0.811495 18.9874 1.23891 18.9994 1.68853C19.0114 2.13815 18.8468 2.5748 18.5405 2.90635L9.24078 14.4457C9.08087 14.6166 8.88787 14.7537 8.67331 14.8489C8.45876 14.9441 8.22707 14.9954 7.99208 14.9997C7.75709 15.004 7.52364 14.9613 7.30568 14.874C7.08773 14.7868 6.88974 14.6568 6.72356 14.4919L0.556372 8.37308C0.384626 8.2143 0.246873 8.02282 0.15133 7.81008C0.0557879 7.59733 0.0044133 7.36767 0.000272046 7.13479C-0.00386921 6.90192 0.0393078 6.6706 0.127226 6.45464C0.215145 6.23868 0.346004 6.0425 0.511998 5.87781C0.677992 5.71312 0.875719 5.58328 1.09338 5.49605C1.31105 5.40882 1.54419 5.36599 1.77891 5.3701C2.01362 5.3742 2.2451 5.42518 2.45953 5.51997C2.67395 5.61476 2.86694 5.75144 3.02698 5.92184L7.90759 10.7619L16.0023 0.529106C16.0169 0.511301 16.0324 0.494316 16.0489 0.47823H16.0466Z" fill="#86C8AD"/>
                                     </svg></icon>
 
-                                    <p class="textotic">Hasta 10 clientes</p>
+                                    <p class="textotic">Hasta 10 clientes, hasta 20 citas/mes, acceso a 1 usuario
+                                    </p>
 
                             </div>
 
@@ -148,12 +153,15 @@
                             <p class="textopasti">19,99</p>
                             <icon>
                             </icon>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 67 65" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="100" viewBox="0 0 67 65" fill="none">
                                 <path d="M12.0264 36.0792V20.0439H6.01322C4.41842 20.0439 2.88893 20.6775 1.76123 21.8052C0.633534 22.9329 0 24.4624 0 26.0572V62.1365C0.00298316 62.5088 0.109575 62.8728 0.30783 63.1879C0.506085 63.503 0.788168 63.7567 1.12247 63.9204C1.44453 64.0669 1.79963 64.1255 2.15168 64.0903C2.50373 64.0551 2.84019 63.9273 3.12688 63.72L13.4496 56.1233H40.3888C41.1485 56.1457 41.9047 56.012 42.6106 55.7303C43.3165 55.4487 43.9571 55.0251 44.4926 54.4858C45.0281 53.9465 45.4472 53.303 45.724 52.5951C46.0007 51.8873 46.1292 51.1301 46.1014 50.3706V48.1057H24.0529C20.8633 48.1057 17.8043 46.8386 15.5489 44.5832C13.2935 42.3278 12.0264 39.2688 12.0264 36.0792Z" fill="#4355D8"/>
                                 <path d="M56.1234 25.0551C53.8059 25.0606 51.5187 24.5288 49.4413 23.5015C47.3639 22.4742 45.553 20.9793 44.1507 19.1341C42.7484 17.289 41.7929 15.1439 41.3593 12.8673C40.9257 10.5907 41.0257 8.2446 41.6516 6.01318H24.0529C22.4581 6.01318 20.9286 6.64672 19.8009 7.77442C18.6732 8.90211 18.0397 10.4316 18.0397 12.0264V36.0793C18.0397 37.6741 18.6732 39.2036 19.8009 40.3313C20.9286 41.459 22.4581 42.0925 24.0529 42.0925H51.2126L60.7937 49.5289C61.0785 49.7395 61.4141 49.8708 61.7661 49.9095C62.1182 49.9483 62.4743 49.893 62.7981 49.7494C63.1392 49.5869 63.4274 49.3314 63.6296 49.0122C63.8317 48.693 63.9395 48.3232 63.9406 47.9454V22.7901C61.5949 24.2543 58.8886 25.0384 56.1234 25.0551Z" fill="#4355D8"/>
                                 <path d="M56.1234 20.0441C61.6584 20.0441 66.1454 15.5571 66.1454 10.022C66.1454 4.48702 61.6584 0 56.1234 0C50.5884 0 46.1014 4.48702 46.1014 10.022C46.1014 15.5571 50.5884 20.0441 56.1234 20.0441Z" fill="#4355D8"/>
                                 </svg>
                             </icon>
+
+                            <p class="textotic">Hasta 35 clientes, hasta 60 citas/mes, acceso a 2 usuarios
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -162,11 +170,13 @@
                             <h3 class="azul">AVANZADO</h3>
                             <p class="textopasti">49,99</p>
                             <icon>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="47" height="38" viewBox="0 0 47 38" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="47" height="100" viewBox="0 0 47 38" fill="none">
                                 <path d="M5.92157 15.2905C6.65936 12.8885 8.04398 10.7358 9.92377 9.06832C8.90099 8.25076 9.92377 3.16873 9.92377 3.16873C9.92377 3.16873 14.0127 4.97943 14.7435 5.82662C14.7435 5.82662 17.8974 2 27.0409 2C36.1844 2 44.8001 9.06942 44.8001 18.5037C44.8001 27.938 37.9644 30.9471 37.9644 30.9471C37.6083 32.6117 37.0596 34.2292 36.3293 35.7668H32.7068C32.1289 34.8777 31.6119 33.9505 31.1595 32.9915C31.1595 32.9915 28.2678 33.3427 26.1937 33.3427C24.7322 33.3129 23.276 33.1565 21.8415 32.8752C21.7176 33.9026 21.3684 34.89 20.8187 35.7668H16.8758C15.6489 34.7155 15.0354 31.4146 15.0354 31.4146C15.0354 31.4146 5.10401 26.9163 3.0003 24.2277C1.86011 22.0955 2.00606 17.3635 2.00606 17.3635C3.1104 16.3465 4.45878 15.632 5.92047 15.2895L5.92157 15.2905Z" stroke="#699BF7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M18.5109 9.24745C20.8511 7.56484 23.695 6.73028 26.5734 6.88147C29.7183 6.82971 32.7944 7.80398 35.3361 9.65678" stroke="#699BF7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </icon>
+                            <p class="textotic">Hasta 100 clientes, hasta 300 citas/mes, acceso a 5 usuario
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -175,10 +185,12 @@
                             <h3 class="azul">EMPRESA</h3>
                             <p class="textopasti">99,99</p>
                             <icon>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="47" viewBox="0 0 36 47" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="100" viewBox="0 0 36 47" fill="none">
                                     <path d="M35.4818 22.4646C33.1339 19.9862 30.0033 18.2905 26.7423 17.6383C25.3074 17.2469 23.8725 16.986 22.4377 16.8556C26.09 12.551 25.4378 6.02896 21.1333 2.3766C16.8287 -1.27576 10.3066 -0.623557 6.65426 3.68101C3.0019 7.98558 3.65411 14.5077 7.95868 18.16C8.74133 18.8122 9.52398 19.334 10.3066 19.5949V22.4646L8.21956 20.508C6.39338 18.6818 3.39322 18.6818 1.4366 20.508C-0.389579 22.3341 -0.520021 25.2039 1.30616 27.03L7.30647 34.0739C7.56735 35.9001 8.21956 37.5958 9.13265 39.1611C9.78486 40.3351 10.6979 41.509 11.611 42.4221V44.9005C11.611 45.6832 12.1328 46.2049 12.9155 46.2049H30.6555C31.3077 46.2049 31.9599 45.5527 31.9599 44.9005V41.509C34.4383 38.5089 35.7427 34.7261 35.7427 30.9433V23.3777C35.8732 22.8559 35.7427 22.595 35.4818 22.4646ZM6.7847 10.2031C6.7847 5.89852 10.3066 2.50704 14.6112 2.63748C18.9158 2.63748 22.3072 6.1594 22.1768 10.464C22.1768 12.8119 21.1333 14.899 19.3071 16.3338V9.81176C19.2405 8.68132 18.744 7.61917 17.9194 6.84306C17.0947 6.06695 16.0045 5.63567 14.8721 5.63763C12.5241 5.50719 10.4371 7.46382 10.4371 9.81176V16.5947C8.21956 15.2903 6.91514 12.8119 6.7847 10.2031ZM33.2643 30.8128C33.3948 34.2043 32.2208 37.4654 30.0033 40.0742C29.7424 40.3351 29.4815 40.596 29.4815 40.9873V43.7266H14.3503V41.9004C14.3503 41.509 14.0894 41.1177 13.8285 40.8568C12.9155 40.0742 12.1328 39.1611 11.4806 37.9871C10.6979 36.6827 10.1762 35.1174 9.9153 33.5521C9.9153 33.2912 9.78486 33.0303 9.65442 32.7695L3.39322 25.3343C3.0019 24.943 2.74102 24.4212 2.74102 23.769C2.74102 23.2472 3.0019 22.595 3.39322 22.2037C4.30632 21.4211 5.61073 21.4211 6.52382 22.2037L10.3066 25.9865V29.8998L12.785 28.5953V9.81176C12.9155 8.89867 13.6981 8.11602 14.7416 8.24646C15.6547 8.24646 16.5678 8.89867 16.5678 9.81176V24.8125L19.1766 25.3343V19.334C19.3071 19.2036 19.4375 19.2036 19.568 19.0731C20.4811 19.0731 21.3941 19.2036 22.3072 19.334V25.9865L24.3943 26.3778V19.5949L25.9596 19.9862C26.6118 20.1166 27.264 20.3775 27.9162 20.6384V27.1605L30.0033 27.5518V21.5515C31.1773 22.0733 32.2208 22.8559 33.1339 23.769L33.2643 30.8128Z" fill="#699BF7"/>
                                 </svg>
                             </icon>
+                            <p class="textotic">Hasta 200 clientes, hasta 600 citas/mes, acceso a infinitos* usuario
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -205,33 +217,44 @@
         </div> 
     </div>
 
-    <div class="accordion accordion-flush" id="accordionFlushExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                ¿Cuáles son los métodos de pago?            </button>
-          </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Los métodos de pago que aceptamos son: transferencia, Paypal, Bizum, Google Pay y Apple Pay.</div>
+        <!-- Esto es el accordion-->
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                ¿Cuáles son los métodos de pago?  
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Los métodos de pago que aceptamos son: transferencia, Paypal, Bizum, Google Pay y Apple Pay.
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                ¿Cómo funciona el seguimiento mensual?            </button>
-          </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">A través del seguimiento mensual nos cercionamos de que.</div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                ¿Cómo funciona el seguimiento mensual?  
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                A través del seguimiento mensual de los clientes nos aseguramos de que siempre tengas todos los datos necesarios disponibles.              </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Si no me convence ¿puedo cancelar en algún momento sin coste?              </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Sí, siempre y cuando se cancele con 10 días previos al cobro del siguiente mes.
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                Si no me convence ¿puedo cancelar en algún momento sin coste?            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Sí, siempre y cuando se cancele con 10 días previos al cobro del siguiente mes.</div>
-          </div>
+          
         </div>
 
 
@@ -249,72 +272,74 @@
               <line x1="20%" y1="0" x2="80%" y2="0" style="stroke:#29235C; stroke-width:100%;" />
             </svg>
           </div>
-<<<<<<< Updated upstream:nuestro_metodo.html
-=======
 
-          
+          <div class="column">
+                    <img src="https://placehold.co/600x400" alt="">
+                    <img src="https://placehold.co/300x500" alt="">
+                    <img src="https://placehold.co/900x200" alt="">
+                    <img src="https://placehold.co/200x400" alt="">
+                    <img src="https://placehold.co/700x400" alt="">
+                    <img src="https://placehold.co/600x800" alt="">
+                </div>
+    
+                <div class="column">
+                    <img src="https://placehold.co/700x400" alt="">
+                    <img src="https://placehold.co/600x800" alt="">
+                    <img src="https://placehold.co/900x200" alt="">
+                    <img src="https://placehold.co/200x400" alt="">
+                    <img src="https://placehold.co/600x400" alt="">
+                    <img src="https://placehold.co/300x500" alt="">
+                </div>
+                <div class="column">
+                    <img src="https://placehold.co/900x200" alt="">
+                    <img src="https://placehold.co/200x400" alt="">
+                    <img src="https://placehold.co/700x400" alt="">
+                    <img src="https://placehold.co/600x800" alt="">
+                    <img src="https://placehold.co/600x400" alt="">
+                    <img src="https://placehold.co/300x500" alt="">
+                </div>
+                <div class="column">
+                    <img src="https://placehold.co/600x400" alt="">
+                    <img src="https://placehold.co/300x500" alt="">
+                    <img src="https://placehold.co/900x200" alt="">
+                    <img src="https://placehold.co/200x400" alt="">
+                    <img src="https://placehold.co/700x400" alt="">
+                    <img src="https://placehold.co/600x800" alt="">
+                </div>
 
 
                 </div>
-            </section>
-            
-  
-            
-            
-            
-            <section id="gallery">
-
-
->>>>>>> Stashed changes:servicios.html
+            </section><section id="gallery">
     </div> 
-
-
-    <div class="galeria">
-
-      <div class="rowgal">
-      
-      
-          <div class="columnaa">
-      
-      
-              <img src="img/denys-nevozhai-z0nVqfrOqWA-unsplash.jpg" alt="">
-              <img src="img/dose-juice-sTPy-oeA3h0-unsplash.jpg" alt="">
-              <img src="img/edgar-castrejon-1CsaVdwfIew-unsplash.jpg" alt="">
-              <img src="img/emma-simpson-mNGaaLeWEp0-unsplash.jpg" alt="">
-      
-      
-          </div>
-      
-          <div class="columnaa">
-      
-      
-              <img src="img/jared-rice-NTyBbu66_SI-unsplash.jpg" alt="">
-              <img src="img/tyler-nix-Y1drF0Y3Oe0-unsplash.jpg" alt="">
-              <img src="img/jonathan-borba-lrQPTQs7nQQ-unsplash.jpg" alt="">
-              <img src="img/lyfefuel-_8lVVBTvBOU-unsplash.jpg" alt="">
-      
-      
-          </div>
-      
-          <div class="columnaa">
-      
-      
-              <img src="img/nature-zen-Eszi6jZ0Pfk-unsplash.jpg" alt="">
-              <img src="img/patrick-hendry-w5SgojGZooI-unsplash.jpg" alt="">
-              <img src="img/paul-green-gOHfFgwyDNM-unsplash.jpg" alt="">
-              <img src="img/jason-briscoe-GrdJp16CPk8-unsplash.jpg" alt="">
-      
-      
-          </div>
-      
-      
-      </div>
-      
-      
-      </div>
-
 </div>
 
+
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
 
 
@@ -322,18 +347,16 @@
 
 
 </body>
-<<<<<<< Updated upstream:nuestro_metodo.html
-=======
 <footer class="footer">
   <div class="container">
       
                   <!-- Esto son las curves-->
-  <!--<div class="curves">
+  <div class="curves">
       <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1470 94" fill="none">
           <path d="M57.4791 32.8139C0.353132 33.215 -5.20077 75.7718 -0.836987 97H1513C1505.26 62.3997 1413.62 4.23104 1317.82 4.23104C1222.01 4.23104 1150.01 50.8663 1085.75 53.3735C1021.48 55.8808 982.8 51.8691 850.101 11.7527C717.403 -28.3636 651.351 48.3592 558.521 32.8141C473.21 18.5282 417.491 68.9186 272.296 71.4258C127.101 73.9331 128.886 32.3124 57.4791 32.8139Z" fill="#29235C"/>
       </svg>
   </div>
-    <div class="row"> -->
+    <div class="row">
       <!-- ColumnA 1 -->
       <div class="col-md-4 footer-column">
         <img src="./img/Frame.png" alt="Impulsa tu negocio">
@@ -362,5 +385,4 @@
     <img src="../Rocketplan/img/FOOTER.png" class="footerimg">
   </div>
 </footer>
->>>>>>> Stashed changes:servicios.html
 </html>
