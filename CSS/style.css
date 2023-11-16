@@ -20,23 +20,19 @@ h1#title {
 
     h1#title2 {
         color: #F5F5F5;
-    
-        font-family: Roboto;
 
-        font-size: 4em;
-        font-style: normal;
-        font-weight: 70%;
-
-        line-height: 89.188%; /* 107.025px */
-
-        padding-bottom: 5%;
-    
-
-        width: 3em;
-
-    
-        flex-shrink: 0;
-        }
+        font-size: 8em;
+       
+           font-family: Roboto;
+       
+           font-style: normal;
+           font-weight: 900;
+           line-height: 89.188%; /* 107.025px */
+       
+           width: 900px;
+       
+           flex-shrink: 0;
+           }
 
 h2#subtitle {
     color: #86C8AD;
