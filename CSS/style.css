@@ -436,4 +436,204 @@ text-transform: none;
     width: 100%;
     position: absolute;
     bottom: 0; /* Para que el SVG esté pegado al borde inferior del div cajablanca */
+<<<<<<< Updated upstream
     }
+=======
+    }
+
+    .footer {
+        width: 100%;
+        margin-left: 0;
+        padding: 20px 5%;
+        text-align: left;
+    }
+    
+    .footer-column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Alinea los elementos de la columna al margen izquierdo */
+    }
+    
+    .footer-column img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .list-unstyled {
+        list-style: none; /* Elimina los estilos de la lista (viñetas, márgenes, etc.) */
+        padding: 0;
+        margin: 0;
+    }
+    
+    .list-unstyled li {
+        margin-bottom: 10px; /* Espaciado entre elementos de la lista */
+    }
+    
+    .list-unstyled a {
+        text-decoration: none;
+        color: #F5F5F5;
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: 400;
+        text-align: left;
+    }
+      
+
+    #consultaForm{
+        padding-top: 1em;
+        align-content: left;
+        text-align: left;
+    }
+
+    #btn_btn_primary{
+        width: 252.717px;
+        height: 70.444px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: #86C8AD;
+        color: #F5F5F5;
+    
+        text-align: center;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        }
+    
+    .boton:hover{
+        border-radius: 4px;
+        background: #94B6A8;
+        }
+    
+    .boton:active{
+        background: #49AB83;
+        }
+
+        
+        .carousel {
+            width: 60%; /* Ajusta el tamaño del carousel según tus necesidades */
+            margin: auto; /* Centra horizontalmente el carousel */
+          }
+          
+        /*Esto sirve para hacer el código responsive*/
+      @media (max-width: 768px) {
+        .title {
+            margin-left: 0; /* Adjust margin for smaller screens */
+        }
+    
+        nav#nav {
+            font-size: 24px; /* Decrease font size for navigation on smaller screens */
+        }
+    
+        .boton,
+        .boton2,
+        .botondere {
+            margin-left: 0; /* Adjust margin for buttons on smaller screens */
+        }
+    
+        .container {
+            margin-left: 0; /* Adjust margin for container on smaller screens */
+        }
+    
+        .column {
+            flex: 1;
+            min-width: 100%; /* Full width for columns on smaller screens */
+        }
+    
+        .textogrande,
+        .textogrande2,
+        .textobase {
+            padding: 3em 5%; /* Adjust padding for text on smaller screens */
+        }
+    }
+    
+    /* Styles for smartphones (576px and below) */
+    @media (max-width: 576px) {
+        html{
+    100%
+        }
+        .title {
+            padding: 1em; /* Adjust padding for title on smaller screens */
+        }
+    
+        .textogrande,
+        .textogrande2 {
+            font-size: 40px; /* Decrease font size for large text on smaller screens */
+        }
+    
+        .column {
+            height: auto; /* Allow columns to expand based on content */
+        }
+    
+        .textobase {
+            margin-left: 5%; /* Adjust margin for text on smaller screens */
+            margin-right: 5%;
+        }
+        .boton,
+        .boton2,
+        .botondere {
+            margin-left: 5%; /* Adjust margin for buttons on smaller screens */
+        }
+    
+        nav#nav {
+            text-align: center; /* Center align navigation on smaller screens */
+        }
+    }
+
+
+    .galeria{
+
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        
+        }
+        .galeria img{
+        
+            width: 100%;
+        
+        
+        }
+        
+        .rowgal{
+        
+            display: flex;
+            padding: 5px;
+            flex-wrap: wrap;
+        }
+        
+        .columnaa{
+        
+            flex: 25%;
+            padding: 5px;
+        }
+        
+        .columnaa img{
+        
+            margin-top: 5px;
+        
+        }
+        
+        @media (max-width: 600px){
+            .columnaa{
+        
+                flex: 100%;
+            }
+        }
+        
+        @media (max-width: 800px){
+            .columnaa{
+        
+                flex: 50%;
+            }
+        }
+
+        .accordion{
+
+            padding: 10%;
+
+        }
+
+    
+>>>>>>> Stashed changes
