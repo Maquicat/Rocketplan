@@ -65,7 +65,8 @@ h3 {
 body#body {
     background-color: #29235C;
     width: 100%;
-    /* margin: 3em; */
+    min-width: 100vh;
+
     }   
 div{
     width: 100%;
@@ -87,6 +88,7 @@ div{
     left: 0;
     z-index: -1;
     width: 100%;
+    min-width: 100vh;
     height: 648px;
     flex-shrink: 0;
     background: url('../img/header.jpg');
@@ -347,7 +349,6 @@ nav li a:hover {
 
     text-align: right;
     margin-right: 1em
-    
 }
 
  /* Esto sirve para controlar las tarjetas*/
