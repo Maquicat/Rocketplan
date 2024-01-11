@@ -6,10 +6,8 @@
     <!-- Comentario pulsando Ctrl+Ç -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rocket·plan</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-</head>
 </head>
 <body id="body">
 
@@ -22,56 +20,55 @@
           <li><a href="Contactos.html">Contacto</a></li>
           <li><a href="cuenta.html" class="boton2">¡Pruébalo!</a></li>
       </ul>
-  </nav>
+	</nav>
+	<main id="content" style="padding-top: 5em;">
+		<div class="cajablanca">
+			<div>
+				<p class="textogrande" style="display:block;">Crea tu cuenta</p>
+			</div>
+			<!-- Esto es la línea-->
+			<div style="max-width: 100%; overflow: hidden;">
+				<svg width="100%" height="10px" preserveAspectRatio="none" viewBox="0 0 100 100">
+				  <line x1="20%" y1="0" x2="80%" y2="0" style="stroke:#29235C; stroke-width:100%;" />
+				</svg>
+			  </div>
+			<p class="textobase max-w-1000">Introduce tus datos para ponernos en contacto contigo. ¡Te responderemos lo antes posible!</p>
+			<br>
+			<br>
 
-    <div class="cajablanca">
-        <pre class="textogrande">Crea tu cuenta
-        </pre>
- 
-        <!-- Esto es la línea-->
-        <div style="max-width: 100%; overflow: hidden;">
-            <svg width="100%" height="10px" preserveAspectRatio="none" viewBox="0 0 100 100">
-              <line x1="20%" y1="0" x2="80%" y2="0" style="stroke:#29235C; stroke-width:100%;" />
-            </svg>
-          </div>
-        <p class="textobase max-w-1000">
-Introduce tus datos para ponernos en contacto contigo. ¡Te responderemos lo antes posible!
-        </p>
-        <br>
-        <br>
-
-        <div class="container mt-5">
-          <div class="col-md-6 mx-auto">
-              <form id="consultaForm">
-                  <div class="mb-3">
-                      <label for="username" class="form-label">Nombre de usuario:</label>
-                      <input type="text" class="form-control" id="username" name="username" required>
-                  </div>
-    
-                  <div class="mb-3">
-                      <label for="email" class="form-label">Email:</label>
-                      <input type="email" class="form-control" id="email" name="email" required>
-                  </div>
-    
-                  <div class="mb-3">
-                      <label for="motivo" class="form-label">Motivo de la consulta:</label>
-                      <textarea class="form-control" id="motivo" name="motivo" rows="4" required></textarea>
-                  </div>
-                  <button type="button" class="boton" onclick="location.href='Contactos.html'">Registrar y volver</button>
-              </form>
-          </div>
-      </div>
-  
-      <script>
-          function registrarConsulta() {
-              // Aquí puedes agregar la lógica para procesar los datos del formulario
-  
-              // Redirige a la home (puedes cambiar la URL según tu estructura de archivos)
-              window.location.href = "/home";
-          }
-      </script>
-  
-    </div>
+			<div class="container mt-5">
+			  <div class="col-md-6 mx-auto">
+				  <form id="consultaForm">
+					  <div class="mb-3">
+						  <label for="username" class="form-label">Nombre de usuario:</label>
+						  <input type="text" class="form-control" id="username" name="username" required>
+					  </div>
+		
+					  <div class="mb-3">
+						  <label for="email" class="form-label">Email:</label>
+						  <input type="email" class="form-control" id="email" name="email" required>
+					  </div>
+		
+					  <div class="mb-3">
+						  <label for="motivo" class="form-label">Motivo de la consulta:</label>
+						  <textarea class="form-control" id="motivo" name="motivo" rows="4" required></textarea>
+					  </div>
+					  <button type="button" class="boton" onclick="location.href='Contactos.html'">Registrar y volver</button>
+				  </form>
+			  </div>
+		  </div>
+	  
+		  <script>
+			  function registrarConsulta() {
+				  // Aquí puedes agregar la lógica para procesar los datos del formulario
+	  
+				  // Redirige a la home (puedes cambiar la URL según tu estructura de archivos)
+				  window.location.href = "/home";
+			  }
+		  </script>
+	  
+		</div>
+	</main>
 </body>
 
 </html>
